@@ -37,4 +37,14 @@ jdk8to11all include all of jdk8to11 and extra libs,such as sum.misc and javafx.u
 ## Where are the jars come form?
 download from ```https://www.azul.com/downloads/?version=java-8-lts&package=jdk-fx```, trimed and striped.
 
+## How to add support one binary jar compiled from jdk8 for jdk11?
+```
+# download all dependencies to local target/dependency dir.
+mvn -f jdk8to11-1.0.pom dependency:copy-dependencies
+
+# add all needed dependencies  to the binary jar.
+WINRAR :  功能添加-》文件-》不压缩直接存储的文件(压缩方式：存储)
+jar:    jar -cfM0 new.jar * 
+```
+
 
