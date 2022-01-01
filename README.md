@@ -30,7 +30,7 @@ No Warranty: THE SUBJECT SOFTWARE IS PROVIDED "AS IS" WITHOUT ANY WARRANTY OF AN
         </dependency>
 ```
 
-## what's the diffrent from jdk8to11 to jdk8to11all?
+## what's the difference between jdk8to11 with jdk8to11all?
 jdk8to11 only include dependencies from central maven repository,
 jdk8to11all include all of jdk8to11 and extra libs,such as sum.misc and javafx.util.Pair.
 
