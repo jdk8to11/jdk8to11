@@ -52,5 +52,19 @@
             <version>2.3.3</version>
             <scope>runtime</scope>
         </dependency>
+        <!-- JDK 11+ only begin -->
+        <!--
+        <dependency>
+          <groupId>org.openjdk.nashorn</groupId>
+          <artifactId>nashorn-core</artifactId>
+          <version>15.3</version>
+        </dependency>
+        <dependency>
+          <groupId>org.openjfx</groupId>
+          <artifactId>javafx-base</artifactId>
+          <version>17</version>
+        </dependency>  
+        -->
+        <!-- JDK 11+ only end -->     
     </dependencies>
 </project>
